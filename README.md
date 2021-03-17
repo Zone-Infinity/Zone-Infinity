@@ -40,12 +40,9 @@
 
 <details>
     <summary>😃 Check Out My Discord Bot</summary>
-    <p>
     <img src="https://images-ext-1.discordapp.net/external/knTQpddk8nbTGs-Q_6DMpuuhprgiN_3t4WSv_koPkdk/https/cdn.discordapp.com/avatars/752052866809593906/5df22ca80c3136b59a962ae0d4d36b33.png" align="right"/>
-    <a href="https://github.com/Zone-Infinity/LambdaDiscordBot">Lambda Github Repository</a>
-    <a href="https://discord.com/invite/XCNehWVrH7"><img src="https://invidget.switchblade.xyz/XCNehWVrH7" alt="Lambda Discord" /></a>
+    <h4><a href="https://github.com/Zone-Infinity/LambdaDiscordBot">Lambda λ Github Repository</a></h4>
     <a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>
-    </p> 
 </details>
 
 [lambda]: https://github.com/Zone-Infinity/LambdaDiscordBot

@@ -9,13 +9,11 @@
 - 💬 Ask me about Java and Discord 🧠
 - 🥅 2021 Goals: Study Better than Yesterday 😁
 - ⚡ Fun fact: I like Minecraft 🕹
-<hr />
 
 ### Connect with me:
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />][discord]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Instagram" height="30" width="40" />][instagram]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="Youtube" height="30" width="40" />][youtube]
-<hr />
 
 ### Languages and Tools:
 <p align="left">
@@ -36,12 +34,12 @@
 </p>
 <hr />
 
-:zap: GitHub Stats<br />
+## :zap: GitHub Stats<br />
 <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=zone-infinity&show_icons=true&hide_border=true&theme=tokyonight" />
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="zone-infinity" /></p>
 <hr />
 
-😃 Check Out My Discord Bot
+## 😃 Check Out My Discord Bot
 <img src="https://images-ext-1.discordapp.net/external/knTQpddk8nbTGs-Q_6DMpuuhprgiN_3t4WSv_koPkdk/https/cdn.discordapp.com/avatars/752052866809593906/5df22ca80c3136b59a962ae0d4d36b33.png" align="right"/>
 <h4><a href="https://github.com/Zone-Infinity/LambdaDiscordBot">Lambda λ Github Repository</a></h4>
 <a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>

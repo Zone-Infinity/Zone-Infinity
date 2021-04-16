@@ -32,12 +32,10 @@
 <a href="https://git-scm.com/"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/> </a>  
 <a href="https://github.com/DV8FromTheWorld/JDA"> <img src="https://media.discordapp.net/attachments/821661501038919721/821668768177848330/logo.png" alt="JDA" width="40" height="40"/> </a>  
 </p>
-<hr />
 
 ## :zap: GitHub Stats<br />
 <img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=zone-infinity&show_icons=true&hide_border=true&theme=tokyonight" />
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="zone-infinity" /></p>
-<hr />
 
 ## 😃 Check Out My Discord Bot
 <img src="https://images-ext-1.discordapp.net/external/knTQpddk8nbTGs-Q_6DMpuuhprgiN_3t4WSv_koPkdk/https/cdn.discordapp.com/avatars/752052866809593906/5df22ca80c3136b59a962ae0d4d36b33.png" align="right"/>

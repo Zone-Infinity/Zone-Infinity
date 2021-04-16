@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Soham
 
-## I am a Student🎓, Coder💻 and a Gamer🎮
+## I am a Student🎓, Coder💻 and a Gamer🎮 ![](https://visitor-badge.glitch.me/badge?page_id=Zone-Infinity.Zone-Infinity)
 
 - 🔭 I’m currently working on [Lambda Discord Bot][lambda]
 - 🌱 I’m currently increasing my knowledge about Java And Kotlin

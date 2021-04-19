@@ -34,7 +34,7 @@
 </p>
 
 ## :zap: GitHub Stats<br />
-<img align="left" alt="codeSTACKr's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=zone-infinity&show_icons=true&hide_border=true&theme=tokyonight" />
+<img align="left" alt="GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=zone-infinity&show_icons=true&hide_border=true&theme=tokyonight" />
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="zone-infinity" /></p>
 
 ## 😃 Check Out My Discord Bot

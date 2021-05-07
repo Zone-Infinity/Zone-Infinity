@@ -39,7 +39,8 @@
 <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="zone-infinity" /></p>
 
 ## 😃 Check Out My Discord Bot
-<img src="https://images-ext-1.discordapp.net/external/knTQpddk8nbTGs-Q_6DMpuuhprgiN_3t4WSv_koPkdk/https/cdn.discordapp.com/avatars/752052866809593906/5df22ca80c3136b59a962ae0d4d36b33.png" align="right"/>
+<img src="https://media.discordapp.net/attachments/821661501038919721/838439137085227028/fc7664589d83a1ca075d3f68c25b27b6.png?size=256" width="150" align="right"/>
+</div>
 <h4><a href="https://github.com/Zone-Infinity/LambdaDiscordBot">Lambda λ Github Repository</a></h4>
 <a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>
 

@@ -34,7 +34,7 @@
 </p>
 
 ## :zap: GitHub Stats<br />
-<img alt="GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=zone-infinity&show_icons=true&hide_border=true&theme=tokyonight" />
+<img alt="GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Zone-Infinity&show_icons=true&hide_border=true&theme=tokyonight" />
 <br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="zone-infinity" />
 

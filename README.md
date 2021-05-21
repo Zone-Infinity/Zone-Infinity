@@ -1,4 +1,5 @@
-### Hi there 👋, I'm Soham          ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
+![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
+### Hi there 👋, I'm Soham 
 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 

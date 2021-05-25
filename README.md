@@ -5,7 +5,6 @@
 
 - 🔭 I’m currently working on [Lambda Discord Bot][lambda]
 - 🌱 I’m currently increasing my knowledge about Java And Kotlin
-- 👯 I’m looking to collaborate on [Menudocs][menudocs] and [AlphaBet][alphabet]
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java and Discord 🧠
 - 🥅 2021 Goals: Study Better than Yesterday 😁
@@ -46,8 +45,6 @@
 <a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>
 
 [lambda]: https://github.com/Zone-Infinity/LambdaDiscordBot
-[menudocs]: https://github.com/MenuDocs
-[alphabet]: https://github.com/Alphabet-Community
 
 [discord]: https://discord.com/invite/XCNehWVrH7
 [instagram]: https://www.instagram.com/sohamdokhale1602.kt/

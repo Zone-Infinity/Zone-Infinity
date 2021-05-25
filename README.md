@@ -8,7 +8,7 @@
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java and Discord 🧠
 - 🥅 2021 Goals: Study Better than Yesterday 😁
-- ⚡ Fun fact: I like Minecraft 🕹
+- ⚡ Fun fact: I like Minecraft ⛏
 
 ### Connect with me:
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />][discord]

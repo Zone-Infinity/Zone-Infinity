@@ -45,7 +45,6 @@
 <a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>
 
 [lambda]: https://github.com/Zone-Infinity/LambdaDiscordBot
-
 [discord]: https://discord.com/invite/XCNehWVrH7
 [instagram]: https://www.instagram.com/sohamdokhale1602.kt/
 [youtube]: https://www.youtube.com/channel/UC524mIF1trAPbY8CsH0KrPQ

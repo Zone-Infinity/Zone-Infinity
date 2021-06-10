@@ -7,7 +7,7 @@
 - 🌱 I’m currently increasing my knowledge about Java And Kotlin
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java and Discord 🧠
-- 🥅 2021 Goals: Study Better than Yesterday 😁
+- 🥅 2021 Goals: Get Better than Yesterday 😁
 - ⚡ Fun fact: I like Minecraft ⛏
 
 ### Connect with me:

@@ -14,7 +14,7 @@
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />][discord]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Instagram" height="30" width="40" />][instagram]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="Youtube" height="30" width="40" />][youtube]
-
+<!-- 
 ### Languages and Tools:
 <p align="left">
 <a href="https://www.jetbrains.com/idea/"><img align="left" alt="IntelliJ IDEA" width="40" src="https://media.discordapp.net/attachments/821661501038919721/821666754539028500/idea-edu.png" /></a> 
@@ -23,9 +23,7 @@
 <a href="https://www.java.com"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/> </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Javascript" width="40" height="40"/> </a>
 <a href="https://www.python.org"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/> </a>  
-<!-- 
 <a href="https://www.cprogramming.com/"> <img src="https://media.discordapp.net/attachments/821661501038919721/822432499699154973/734650199800021094.png" alt="C" width="40" height="40"/> </a>
--->
 <a href="https://firebase.google.com/"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/></a>
 <a href="https://www.mysql.com/"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> </a> 
 <a href="https://heroku.com"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="Heroku" width="40" height="40"/> </a> 
@@ -34,6 +32,7 @@
 <a href="https://git-scm.com/"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/> </a>  
 <a href="https://github.com/DV8FromTheWorld/JDA"> <img src="https://media.discordapp.net/attachments/821661501038919721/821668768177848330/logo.png" alt="JDA" width="40" height="40"/> </a>  
 </p>
+-->
 
 ## :zap: GitHub Stats<br />
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zone-Infinity&show_icons=true&hide_border=true&theme=tokyonight)

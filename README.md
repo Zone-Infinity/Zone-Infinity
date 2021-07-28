@@ -3,7 +3,7 @@
 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 
-- 🔭 I’m currently working on (Solar MC Server)[https://discord.gg/dWVZHk7V67]
+- 🔭 I’m currently working on [Solar MC Server](https://discord.gg/dWVZHk7V67)
 - 🌱 I’m currently increasing my knowledge about Java And Minecraft
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java, Minecraft and Discord 🧠

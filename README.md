@@ -1,12 +1,12 @@
 ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
-### Hi there 👋, I'm Soham 
+### Hi there 👋, I'm Infinity :D 
 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 
-- 🔭 I’m currently working on [Lambda Discord Bot][lambda]
-- 🌱 I’m currently increasing my knowledge about Java And Kotlin
+- 🔭 I’m currently working on [Solar MC Server][https://discord.gg/dWVZHk7V67]
+- 🌱 I’m currently increasing my knowledge about Java And Minecraft
 - 🤔 I’m looking for help with EVERYTHING!!
-- 💬 Ask me about Java and Discord 🧠
+- 💬 Ask me about Java, Minecraft and Discord 🧠
 - 🥅 2021 Goals: Get Better than Yesterday 😁
 - ⚡ Fun fact: I like Minecraft ⛏
 

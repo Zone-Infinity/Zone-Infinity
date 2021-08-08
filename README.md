@@ -38,7 +38,7 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zone-Infinity&show_icons=true&hide_border=true&theme=tokyonight)
 <br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="Github Streak" />
-<img src="https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph" alt="Activity Graph" width="100%"/>
+<img src="https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph" alt="Activity Graph" width="50%"/>
 
 ## 😃 Check Out My Discord Bot
 <img src="https://media.discordapp.net/attachments/821661501038919721/838439137085227028/fc7664589d83a1ca075d3f68c25b27b6.png?size=256" width="100" align="right"/>

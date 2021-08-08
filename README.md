@@ -41,6 +41,7 @@
 <br/>
 <img src="https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph" alt="Activity Graph" width="60%"/>
 
+<!--
 ## 😃 Check Out My Discord Bot
 <img src="https://media.discordapp.net/attachments/821661501038919721/838439137085227028/fc7664589d83a1ca075d3f68c25b27b6.png?size=256" width="100" align="right"/>
 </div>
@@ -49,5 +50,7 @@
 
 [lambda]: https://github.com/Zone-Infinity/LambdaDiscordBot
 [discord]: https://discord.com/invite/XCNehWVrH7
+-->
+
 [instagram]: https://www.instagram.com/sohamdokhale1602.kt/
 [youtube]: https://www.youtube.com/channel/UC524mIF1trAPbY8CsH0KrPQ

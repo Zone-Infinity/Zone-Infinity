@@ -1,5 +1,5 @@
 ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
-### Hi there 👋, I'm Infinity :D 
+### Hi there 👋, I'm ZInfinity :D 
 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 

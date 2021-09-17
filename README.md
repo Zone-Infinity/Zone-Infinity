@@ -39,7 +39,9 @@
 <br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="Github Streak" />
 <br/>
+<!--
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph)
+-->
 
 <!--
 ## 😃 Check Out My Discord Bot

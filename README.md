@@ -1,5 +1,5 @@
 ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
-### Hi there 👋, I'm ZInfinity :D 
+### Hi there 👋, I'm Infinity :D 
 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 
@@ -43,15 +43,6 @@
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph)
 -->
 
-<!--
-## 😃 Check Out My Discord Bot
-<img src="https://media.discordapp.net/attachments/821661501038919721/838439137085227028/fc7664589d83a1ca075d3f68c25b27b6.png?size=256" width="100" align="right"/>
-</div>
-<h4><a href="https://github.com/Zone-Infinity/LambdaDiscordBot">Lambda λ Github Repository</a></h4>
-<a href="https://top.gg/bot/752052866809593906"><img src="https://top.gg/api/widget/752052866809593906.svg" alt="Lambda λ" /></a>
-
-[lambda]: https://github.com/Zone-Infinity/LambdaDiscordBot
--->
-[discord]: https://discord.com/invite/XCNehWVrH7
+[discord]: https://discord.gg/3ZDpPyR
 [instagram]: https://www.instagram.com/sohamdokhale1602.kt/
 [youtube]: https://www.youtube.com/channel/UC524mIF1trAPbY8CsH0KrPQ

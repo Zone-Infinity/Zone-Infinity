@@ -4,11 +4,11 @@
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 
 - 🔭 I’m currently working on [Solar MC](https://discord.gg/dWVZHk7V67)
-- 🌱 I’m currently increasing my knowledge about Java And Minecraft
+- 🌱 I’m currently learning Flutter
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java, Minecraft and Discord 🧠
 - 🥅 2021 Goals: Get Better than Yesterday 😁
-- ⚡ Fun fact: I like Minecraft ⛏
+- ⚡ I love Minecraft ⛏
 
 ### Connect with me:
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />][discord]

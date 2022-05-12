@@ -7,7 +7,7 @@
 - 🌱 I’m currently learning Flutter
 - 🤔 I’m looking for help with EVERYTHING!!
 - 💬 Ask me about Java, Minecraft and Discord 🧠
-- 🥅 2021 Goals: Get Better than Yesterday 😁
+- 🥅 2022 Goals: Get Better than Yesterday 😁
 - ⚡ I love Minecraft ⛏
 
 ### Connect with me:

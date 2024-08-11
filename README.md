@@ -1,4 +1,4 @@
-![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
+<!-- ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  -->
 ### Hi there 👋, I'm Soham :D 
 
 <!-- 
@@ -33,17 +33,18 @@
 <a href="https://git-scm.com/"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/> </a>  
 <a href="https://github.com/DV8FromTheWorld/JDA"> <img src="https://media.discordapp.net/attachments/821661501038919721/821668768177848330/logo.png" alt="JDA" width="40" height="40"/> </a>  
 </p>
--->
+
 
 ## :zap: GitHub Stats<br />
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zone-Infinity&show_icons=true&hide_border=true&theme=tokyonight)
 <br/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zone-infinity&hide_border=true&theme=tokyonight" alt="Github Streak" />
 <br/>
-<!--
+
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Zone-Infinity&bg_color=1a1b27&color=38bcad&line=628fdb&point=be91f2&area_color=2b3752&area=true&hide_border=true&custom_title=My%20Contribution%20Graph)
--->
+
 
 [discord]: https://discord.gg/3ZDpPyR
 [instagram]: https://www.instagram.com/sohamdokhale1602.kt/
 [youtube]: https://www.youtube.com/channel/UC524mIF1trAPbY8CsH0KrPQ
+-->

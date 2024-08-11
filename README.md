@@ -1,6 +1,7 @@
 ![Profile views](https://gpvc.arturio.dev/Zone-Infinity)  
 ### Hi there 👋, I'm Soham :D 
 
+<!-- 
 ## I am a Student🎓, Coder💻 and a Gamer🎮 
 
 - 🔭 I’m currently working on [Solar MC](https://discord.gg/dWVZHk7V67)
@@ -14,7 +15,7 @@
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="Discord" height="30" width="40" />][discord]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="Instagram" height="30" width="40" />][instagram]
 [<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="Youtube" height="30" width="40" />][youtube]
-<!-- 
+
 ### Languages and Tools:
 <p align="left">
 <a href="https://www.jetbrains.com/idea/"><img align="left" alt="IntelliJ IDEA" width="40" src="https://media.discordapp.net/attachments/821661501038919721/821666754539028500/idea-edu.png" /></a> 

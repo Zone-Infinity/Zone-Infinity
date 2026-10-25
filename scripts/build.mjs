@@ -308,22 +308,24 @@ function lattice(theme, data, vars) {
   }));
   // The signal: the busiest weeks escape upward, height by weekly total. Each strand sways about
   // its root node (a transform, so it stays cheap); different periods keep them out of step.
-  const totals = weeks.map((col, w) => ({ w, n: col.reduce((s, d) => s + (d.n || 0), 0) }));
+  // Each strand grows out of its week's biggest node, so the signal visibly comes from the busiest day.
+  const totals = weeks.map((col, w) => ({ w, n: col.reduce((s, d) => s + (d.n || 0), 0), peak: col.reduce((b, d, i) => ((d.n || 0) > (col[b].n || 0) ? i : b), 0) }));
   const tmax = Math.max(1, ...totals.map((t) => t.n));
   const top = totals.filter((t) => t.n > 0).sort((a, b) => b.n - a.n).slice(0, 9);
   const rand = rng(1927);
   const defs = [];
   top.forEach((t, j) => {
-    const x0 = X0 + t.w * STEP;
-    const h = 40 + 96 * Math.sqrt(t.n / tmax);
+    const x0 = X0 + t.w * STEP, y0 = Y0 + t.peak * STEP;
+    const h = 40 + 96 * Math.sqrt(t.n / tmax);   // tip height above the grid's top row
     const s = { amp: 6 + rand() * 14, drift: -10 + rand() * 30, ph: rand() * 6.28, wig: 0.6 + rand() * 0.7 };
-    const pts = Array.from({ length: 41 }, (_, i) => [strandX(x0, i / 40, s), Y0 - h * (i / 40)]);
+    const pts = Array.from({ length: 41 }, (_, i) => [strandX(x0, i / 40, s), y0 - (y0 - Y0 + h) * (i / 40)]);
     const [ex, ey] = pts[40];
-    defs.push(`<linearGradient id="${theme}-s${j}" gradientUnits="userSpaceOnUse" x1="0" y1="${Y0}" x2="0" y2="${ey.toFixed(1)}"><stop offset="0" stop-color="${p.orchid}" stop-opacity=".9"/><stop offset=".55" stop-color="${p.orchid}" stop-opacity=".75"/><stop offset="1" stop-color="${p.aqua}"/></linearGradient>`);
+    defs.push(`<linearGradient id="${theme}-s${j}" gradientUnits="userSpaceOnUse" x1="0" y1="${y0}" x2="0" y2="${ey.toFixed(1)}"><stop offset="0" stop-color="${p.orchid}" stop-opacity=".9"/><stop offset=".55" stop-color="${p.orchid}" stop-opacity=".75"/><stop offset="1" stop-color="${p.aqua}"/></linearGradient>`);
     const dur = (3.2 + rand() * 2.4).toFixed(2), delay = (-rand() * 3).toFixed(2), deg = (2.5 + rand() * 2.5).toFixed(1);
-    out.push(`<g class="sway" style="transform-origin:${x0}px ${Y0}px;animation-duration:${dur}s;animation-delay:${delay}s;--a:${deg}deg">`
+    out.push(`<g class="sway" style="transform-origin:${x0}px ${y0}px;animation-duration:${dur}s;animation-delay:${delay}s;--a:${deg}deg">`
       + `<path d="M${pts.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join(' L')}" fill="none" stroke="url(#${theme}-s${j})" stroke-width="1.8" stroke-linecap="round"/>`
-      + `<circle cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="2.6" fill="${p.aqua}"/></g>`);
+      + `<circle cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="2.6" fill="${p.aqua}"/>`
+      + `<circle cx="${x0}" cy="${y0}" r="${(1.4 + 3 * Math.sqrt((weeks[t.w][t.peak].n || 0) / max)).toFixed(2)}" fill="${p.orchid}"/></g>`);
   });
   let lastM = -1;
   weeks.forEach((col, w) => {

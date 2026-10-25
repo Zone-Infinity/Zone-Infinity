@@ -135,6 +135,7 @@ function facts(data) {
 
 // ---------------------------------------------------------------- rows files (card.txt, lattice.txt)
 //   ## Title                 section header
+//   $ command                a shell prompt line, drawn as "~ $ command" (first row: above everything)
 //   > text                   a caption line
 //   Key: value               a row; Key.Sub works (Languages.Backend)
 //   A: x | B: y | C: z       several pairs sharing one row, split evenly
@@ -162,6 +163,12 @@ function readRows(file, vars, width) {
     if (line.startsWith('#') && !line.startsWith('## ')) return;
     if (!line.trim()) { if (rows.length && rows.at(-1).type !== 'gap') rows.push({ type: 'gap' }); return; }
     if (line.startsWith('## ')) { rows.push({ type: 'head', text: line.slice(3).trim() }); return; }
+    if (line.startsWith('$ ')) {
+      // A trailing "  # note" is drawn dimmer, like a shell comment.
+      const [cmd, ...rest] = line.slice(2).split(/\s+#\s/);
+      rows.push({ type: 'cmd', segs: segments(cmd, vars), note: rest.length ? segments('# ' + rest.join(' # '), vars) : null });
+      return;
+    }
     if (line.startsWith('> ')) { rows.push({ type: 'cap', segs: segments(line.slice(2), vars) }); return; }
     const pairs = line.split(' | ').map((chunk) => {
       const m = chunk.match(/^([^:]+):\s*(.+)$/);
@@ -187,6 +194,7 @@ const segSpans = (p, segs, base) => segs.map((s) => span(s.t, s.live ? p.aqua : 
 function rowSpans(p, row, width) {
   if (row.type === 'head') return span(row.text, p.fog) + span(' ' + '─'.repeat(Math.max(1, width - row.text.length - 1)), p.rule);
   if (row.type === 'cap') return segSpans(p, row.segs, p.haze);
+  if (row.type === 'cmd') return span('~ $ ', p.haze) + segSpans(p, row.segs, p.fog) + (row.note ? span('  ', p.haze) + segSpans(p, row.note, p.haze) : '');
   // ". Key: ....... value", each pair padded to its share of the row so the values line up.
   const each = pairWidth(width, row.pairs.length);
   return row.pairs.map((pr, i) => {
@@ -199,7 +207,7 @@ function rowsSvg(p, rows, x, y0, width) {
   return rows.map((r, i) => (r.type === 'gap' ? '' :
     `<text x="${x}" y="${(y0 + (i + 0.78) * LH).toFixed(1)}" xml:space="preserve">${rowSpans(p, r, width)}</text>`)).join('\n');
 }
-const plainText = (rows) => rows.map((r) => (r.type === 'head' ? r.text : r.type === 'cap' ? r.segs.map((s) => s.t).join('')
+const plainText = (rows) => rows.map((r) => (r.type === 'head' ? r.text : (r.type === 'cap' || r.type === 'cmd') ? [...r.segs, ...(r.note || [])].map((s) => s.t).join(' ')
   : r.type === 'kv' ? r.pairs.map((pr) => `${pr.k}: ${pr.segs.map((s) => s.t).join('')}`).join('; ') : '')).filter(Boolean).join('. ');
 
 // ---------------------------------------------------------------- shared layout
@@ -227,13 +235,13 @@ function segDist(px, py, [ax, ay], [bx, by]) {
   return Math.hypot(px - (ax + t * dx), py - (ay + t * dy));
 }
 
-function asciiMark(p, rows) {
+function asciiMark(p, rows, top = PAD) {
   const g = markGeometry();
   // Fit the mark's box (with stroke) into the art column, centred, keeping its true aspect.
   const bx0 = 26, bx1 = 200, by0 = 20, by1 = 202;
   const boxW = ART * CW, boxH = rows * LH;
   const sc = Math.min((boxW - 10) / (bx1 - bx0), (boxH - 20) / (by1 - by0));
-  const ox = PAD + (boxW - (bx1 - bx0) * sc) / 2 - bx0 * sc, oy = PAD + (boxH - (by1 - by0) * sc) / 2 - by0 * sc;
+  const ox = PAD + (boxW - (bx1 - bx0) * sc) / 2 - bx0 * sc, oy = top + (boxH - (by1 - by0) * sc) / 2 - by0 * sc;
   const RAMP = ' .:-=+*#%@';
   const r = g.sw / 2;
   const out = [];
@@ -242,7 +250,7 @@ function asciiMark(p, rows) {
     let hit = 0, onStrand = 0, ys = 0, tip = 0;
     const N = 4, M = 8;
     for (let i = 0; i < N; i++) for (let j = 0; j < M; j++) {
-      const X = (PAD + (col + (i + 0.5) / N) * CW - ox) / sc, Y = (PAD + (row + (j + 0.5) / M) * LH - oy) / sc;
+      const X = (PAD + (col + (i + 0.5) / N) * CW - ox) / sc, Y = (top + (row + (j + 0.5) / M) * LH - oy) / sc;
       if (Math.hypot(X - g.tip[0], Y - g.tip[1]) < g.sw * 0.8) { hit++; tip++; continue; }
       let dl = Infinity, ds = Infinity;
       for (let k = 1; k < g.loop.length; k++) dl = Math.min(dl, segDist(X, Y, g.loop[k - 1], g.loop[k]));
@@ -260,7 +268,7 @@ function asciiMark(p, rows) {
       fill = mix(p.orchid, p.aqua, Math.max(0, t));
       cls = 'sig'; delay = (1 - t) * 1.2;  // the pulse climbs the strand, root first
     }
-    const x = PAD + col * CW, y = PAD + (row + 0.78) * LH;
+    const x = PAD + col * CW, y = top + (row + 0.78) * LH;
     out.push(`<text x="${x}" y="${y.toFixed(1)}" fill="${fill}"${cls ? ` class="${cls}" style="animation-delay:${delay.toFixed(2)}s"` : ''}>${esc(ch)}</text>`);
   }
   return out.join('\n');
@@ -270,17 +278,23 @@ function asciiMark(p, rows) {
 function card(theme, data, vars) {
   const p = palette(theme);
   const rows = readRows('card.txt', vars, INFO);
-  const H = PAD * 2 + Math.max(rows.length, 12) * LH;
+  // "$ neofetch" as the first row sits on its own line above the mark and the rows, like a real terminal.
+  const cmd = rows[0]?.type === 'cmd' ? rows.shift() : null;
+  while (rows[0]?.type === 'gap') rows.shift();
+  const TOP = PAD + (cmd ? LH * 1.6 : 0);
+  const body = Math.max(rows.length, 12);
+  const H = TOP + body * LH + PAD;
   const css = `text{font-family:${MONO};font-size:${FS}px}
 .sig{animation:pulse 3.6s ease-in-out infinite}.tip{animation:blink 3.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.55}25%{opacity:1}50%{opacity:.55}}
 @keyframes blink{0%,100%{opacity:1}55%{opacity:.4}}
 @media (prefers-reduced-motion:reduce){.sig,.tip{animation:none}}`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(plainText(rows))}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(plainText(cmd ? [cmd, ...rows] : rows))}">
 <style>${css}</style>
 <rect width="${W}" height="${H}" rx="16" fill="${p.abyss}"/>
-${asciiMark(p, Math.max(rows.length, 12))}
-${rowsSvg(p, rows, PAD + (ART + GAP) * CW, PAD, INFO)}
+${cmd ? `<text x="${PAD}" y="${(PAD + 0.78 * LH).toFixed(1)}" xml:space="preserve">${rowSpans(p, cmd, COLS)}</text>` : ''}
+${asciiMark(p, body, TOP)}
+${rowsSvg(p, rows, PAD + (ART + GAP) * CW, TOP, INFO)}
 </svg>`;
 }
 
@@ -289,7 +303,7 @@ function lattice(theme, data, vars) {
   const p = palette(theme);
   const rows = readRows('lattice.txt', vars, COLS);
   // A caption row, if it comes first, sits above the strands; everything else goes under the grid.
-  const cap = rows[0]?.type === 'cap' ? rows.shift() : null;
+  const cap = ['cap', 'cmd'].includes(rows[0]?.type) ? rows.shift() : null;
   while (rows[0]?.type === 'gap') rows.shift();
   const STEP = 16, X0 = PAD + 8, CAPY = cap ? PAD + 14 : PAD, Y0 = CAPY + 156;
   const GRID_END = Y0 + 6 * STEP;
@@ -339,7 +353,7 @@ function lattice(theme, data, vars) {
     if (m !== lastM && w > 1 && w < 52) out.push(`<text x="${X0 + w * STEP}" y="${GRID_END + 24}" fill="${p.haze}" font-size="11">${new Date(col[0].key + 'T00:00:00Z').toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }).toLowerCase()}</text>`);
     lastM = m;
   });
-  if (cap) out.push(`<text x="${X0}" y="${CAPY}" font-size="12" xml:space="preserve">${rowSpans(p, cap, COLS)}</text>`);
+  if (cap) out.push(`<text x="${PAD}" y="${CAPY}" font-size="${FS}" xml:space="preserve">${rowSpans(p, cap, COLS)}</text>`);
   out.push(`<g font-size="${FS}">${rowsSvg(p, rows, PAD, ROWS_Y - LH * 0.78 + 4, COLS)}</g>`);
 
   const css = `text{font-family:${MONO}}

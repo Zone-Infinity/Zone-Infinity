@@ -4,6 +4,7 @@
 #   ## Title             a section header
 #   Key: value           a row. Key.Sub works too (Languages.Backend)
 #   A: x | B: y          two or more pairs sharing one row
+#   $ command            a prompt line, drawn as "~ $ command" (as the first row it sits above everything)
 #   > text               a plain caption line
 #   blank line           a gap
 #   # ...                a comment, like this one
@@ -13,6 +14,8 @@
 # {year} {active_days} {streak} {longest} {best_day} {busiest} {top_language} {updated}
 #
 # A row on this card fits 53 characters of key + value. The build says which line is too long.
+
+$ neofetch
 
 ## soham@isoham.me
 Host: IIT Kharagpur, Mathematics & Computing

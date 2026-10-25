@@ -1,6 +1,7 @@
 // Renders the profile's two images:
 //   assets/card-{dark,light}.svg     neofetch-style: my infinity mark in ASCII, beside the rows in card.txt
 //   assets/lattice-{dark,light}.svg  12 months of contributions as the Unbounded lattice, with the rows in lattice.txt
+//   assets/log-{dark,light}.svg      my three newest notes from isoham.me/log
 // Text comes from card.txt and lattice.txt; numbers from data.json.
 // `node scripts/build.mjs --fetch` refreshes data.json from GitHub first (needs GH_TOKEN). No dependencies.
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -55,8 +56,32 @@ async function fetchData() {
     commits,
     days,
   };
+  data.log = (await fetchLog()) ?? previousLog();
   write('data.json', JSON.stringify(data));
   return data;
+}
+
+// The newest notes from isoham.me/log, via the site's feed. Commit rows and private-repo counts are
+// skipped: only notes I wrote. Returns null on any failure so the last good copy is kept.
+const LOG_FEED = process.env.LOG_FEED || 'https://isoham.me/log/rss.xml';
+const unxml = (s) => s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&amp;/g, '&');
+async function fetchLog() {
+  try {
+    const xml = LOG_FEED.startsWith('http') ? await (await fetch(LOG_FEED)).text() : readFileSync(LOG_FEED, 'utf8');
+    // Guard against the old site (or an error page) answering at the same URL.
+    if (!/<title>isoham\.me: Log<\/title>/.test(xml)) return null;
+    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => {
+      const tag = (t) => unxml((it.match(new RegExp(`<${t}>([\\s\\S]*?)</${t}>`)) || [])[1] || '').trim();
+      const [kind, hash] = tag('description').split(' · ');
+      return { kind, hash, title: tag('title'), link: tag('link'), date: new Date(tag('pubDate')).toISOString().slice(0, 10) };
+    });
+    return items.filter((x) => x.kind === 'note' && /^[0-9a-f]{7}$/.test(x.hash)).slice(0, 3).map(({ kind, ...x }) => x);
+  } catch {
+    return null;
+  }
+}
+function previousLog() {
+  try { return JSON.parse(read('data.json')).log ?? []; } catch { return []; }
 }
 
 // ---------------------------------------------------------------- palette (from the brand tokens, never hard-coded)
@@ -368,12 +393,35 @@ ${out.join('\n')}
 </svg>`;
 }
 
+// ---------------------------------------------------------------- latest from isoham.me/log
+function logStrip(theme, data) {
+  const p = palette(theme);
+  const items = data.log ?? [];
+  const short = (d) => new Date(d + 'T00:00:00Z').toLocaleString('en-GB', { day: '2-digit', month: 'short', timeZone: 'UTC' });
+  const TEXT = COLS - 7 - 2 - 6 - 2;      // hash, gap, date, gap, then the note
+  const fit = (t) => (t.length > TEXT ? t.slice(0, TEXT - 1).trimEnd() + '…' : t);
+  const lines = [`${span('~ $ ', p.haze)}${span('tail -3 ', p.fog)}${span('isoham.me/log', p.aqua)}`];
+  if (!items.length) lines.push(span('nothing here yet. the log lives at isoham.me/log', p.haze));
+  for (const it of items) lines.push(`${span(it.hash, p.aqua)}  ${span(short(it.date), p.haze)}  ${span(fit(it.title), p.fog)}`);
+  const H = PAD * 2 + lines.length * LH + 6;
+  const body = lines.map((l, i) => `<text x="${PAD}" y="${(PAD + (i + 0.78) * LH + (i ? 6 : 0)).toFixed(1)}" xml:space="preserve">${l}</text>`).join('\n');
+  const label = items.length ? `Latest from my log: ${items.map((it) => `${it.title} (${fmtDate(it.date)})`).join('; ')}` : 'My log lives at isoham.me/log';
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(label)}">
+<style>text{font-family:${MONO};font-size:${FS}px}</style>
+<rect width="${W}" height="${H}" rx="16" fill="${p.abyss}"/>
+${body}
+</svg>`;
+}
+
 // ---------------------------------------------------------------- main
 const data = process.argv.includes('--fetch') ? await fetchData() : JSON.parse(read('data.json'));
+// --fetch-log refreshes only the log strip (no token needed).
+if (process.argv.includes('--fetch-log')) { data.log = (await fetchLog()) ?? data.log ?? []; write('data.json', JSON.stringify(data)); }
 const vars = facts(data);
 if (process.argv.includes('--placeholders')) { for (const [k, v] of Object.entries(vars)) console.log(k.padEnd(16), v); process.exit(0); }
 for (const theme of ['dark', 'light']) {
   write(`assets/card-${theme}.svg`, card(theme, data, vars));
   write(`assets/lattice-${theme}.svg`, lattice(theme, data, vars));
+  write(`assets/log-${theme}.svg`, logStrip(theme, data));
 }
 console.log(`rendered for ${data.generated}: ${data.commits} commits, ${Object.keys(data.days).length} active days`);

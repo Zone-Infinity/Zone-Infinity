@@ -2,7 +2,7 @@ name: update
 on:
   schedule: [{ cron: '30 20 * * *' }]   # 02:00 IST
   workflow_dispatch:
-  push: { paths: ['card.txt', 'scripts/**', 'tokens.json'] }
+  push: { branches: [master], paths: ['card.txt', 'lattice.txt', 'scripts/**', 'tokens.json'] }
 permissions: { contents: write }
 jobs:
   render:

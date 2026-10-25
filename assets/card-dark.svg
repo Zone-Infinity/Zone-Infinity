@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 354" width="915" height="354" role="img" aria-label="soham@isoham. Host: IIT Kharagpur, Mathematics &amp; Computing. Kernel: the JVM, mostly. Uptime: 6 years, 1 month, 13 days. OS: macOS. Languages.Backend: Java, Spring Boot, PostgreSQL. Languages.Systems: Rust. Languages.Graphics: OpenGL, GLSL. Contact. Web: isoham.me. Email: contact@isoham.me. Discord: isoham">
+<style>text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:15px}
+.sig{animation:pulse 3.6s ease-in-out infinite}.tip{animation:blink 3.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.55}25%{opacity:1}50%{opacity:.55}}
+@keyframes blink{0%,100%{opacity:1}55%{opacity:.4}}
+@media (prefers-reduced-motion:reduce){.sig,.tip{animation:none}}</style>
+<rect width="915" height="354" rx="16" fill="#0a0914"/>
+<text x="255" y="46.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">=</text>
+<text x="264" y="46.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">*</text>
+<text x="273" y="46.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">#</text>
+<text x="282" y="46.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">*</text>
+<text x="291" y="46.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">:</text>
+<text x="255" y="67.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">%</text>
+<text x="264" y="67.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">@</text>
+<text x="273" y="67.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">@</text>
+<text x="282" y="67.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">@</text>
+<text x="291" y="67.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">*</text>
+<text x="255" y="88.4" fill="#3df2e0" class="tip" style="animation-delay:0.00s">.</text>
+<text x="264" y="88.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">#</text>
+<text x="273" y="88.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">@</text>
+<text x="282" y="88.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">@</text>
+<text x="291" y="88.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">=</text>
+<text x="264" y="109.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">.</text>
+<text x="273" y="109.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">%</text>
+<text x="282" y="109.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">@</text>
+<text x="291" y="109.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">@</text>
+<text x="300" y="109.4" fill="#3df2e0" class="sig" style="animation-delay:0.00s">-</text>
+<text x="273" y="130.4" fill="#3ff0e0" class="sig" style="animation-delay:0.02s">.</text>
+<text x="282" y="130.4" fill="#43ebe2" class="sig" style="animation-delay:0.07s">%</text>
+<text x="291" y="130.4" fill="#43ebe2" class="sig" style="animation-delay:0.07s">@</text>
+<text x="300" y="130.4" fill="#44eae2" class="sig" style="animation-delay:0.07s">@</text>
+<text x="309" y="130.4" fill="#48e5e3" class="sig" style="animation-delay:0.12s">:</text>
+<text x="282" y="151.4" fill="#52dae6" class="sig" style="animation-delay:0.23s">=</text>
+<text x="291" y="151.4" fill="#54d8e6" class="sig" style="animation-delay:0.25s">@</text>
+<text x="300" y="151.4" fill="#54d8e6" class="sig" style="animation-delay:0.25s">@</text>
+<text x="309" y="151.4" fill="#54d7e7" class="sig" style="animation-delay:0.26s">*</text>
+<text x="282" y="172.4" fill="#5fcbea" class="sig" style="animation-delay:0.37s">.</text>
+<text x="291" y="172.4" fill="#64c5eb" class="sig" style="animation-delay:0.43s">@</text>
+<text x="300" y="172.4" fill="#64c5eb" class="sig" style="animation-delay:0.43s">@</text>
+<text x="309" y="172.4" fill="#64c5eb" class="sig" style="animation-delay:0.43s">@</text>
+<text x="282" y="193.4" fill="#75b1f0" class="sig" style="animation-delay:0.62s">:</text>
+<text x="291" y="193.4" fill="#74b2f0" class="sig" style="animation-delay:0.61s">@</text>
+<text x="300" y="193.4" fill="#74b2f0" class="sig" style="animation-delay:0.61s">@</text>
+<text x="309" y="193.4" fill="#73b3f0" class="sig" style="animation-delay:0.60s">%</text>
+<text x="66" y="214.4" fill="#a974ff">.</text>
+<text x="75" y="214.4" fill="#a974ff">-</text>
+<text x="84" y="214.4" fill="#a974ff">+</text>
+<text x="93" y="214.4" fill="#a974ff">#</text>
+<text x="102" y="214.4" fill="#a974ff">#</text>
+<text x="111" y="214.4" fill="#a974ff">#</text>
+<text x="120" y="214.4" fill="#a974ff">#</text>
+<text x="129" y="214.4" fill="#a974ff">*</text>
+<text x="138" y="214.4" fill="#a974ff">+</text>
+<text x="147" y="214.4" fill="#a974ff">-</text>
+<text x="156" y="214.4" fill="#a974ff">.</text>
+<text x="201" y="214.4" fill="#a974ff">.</text>
+<text x="210" y="214.4" fill="#a974ff">-</text>
+<text x="219" y="214.4" fill="#a974ff">+</text>
+<text x="228" y="214.4" fill="#a974ff">*</text>
+<text x="237" y="214.4" fill="#a974ff">#</text>
+<text x="246" y="214.4" fill="#a974ff">%</text>
+<text x="255" y="214.4" fill="#a974ff">#</text>
+<text x="264" y="214.4" fill="#a974ff">#</text>
+<text x="273" y="214.4" fill="#a974ff">+</text>
+<text x="282" y="214.4" fill="#849ff4" class="sig" style="animation-delay:0.79s">*</text>
+<text x="291" y="214.4" fill="#849ff4" class="sig" style="animation-delay:0.79s">@</text>
+<text x="300" y="214.4" fill="#849ff4" class="sig" style="animation-delay:0.79s">@</text>
+<text x="309" y="214.4" fill="#83a0f4" class="sig" style="animation-delay:0.78s">*</text>
+<text x="57" y="235.4" fill="#a974ff">+</text>
+<text x="66" y="235.4" fill="#a974ff">@</text>
+<text x="75" y="235.4" fill="#a974ff">@</text>
+<text x="84" y="235.4" fill="#a974ff">%</text>
+<text x="93" y="235.4" fill="#a974ff">*</text>
+<text x="102" y="235.4" fill="#a974ff">+</text>
+<text x="111" y="235.4" fill="#a974ff">+</text>
+<text x="120" y="235.4" fill="#a974ff">+</text>
+<text x="129" y="235.4" fill="#a974ff">#</text>
+<text x="138" y="235.4" fill="#a974ff">@</text>
+<text x="147" y="235.4" fill="#a974ff">@</text>
+<text x="156" y="235.4" fill="#a974ff">@</text>
+<text x="165" y="235.4" fill="#a974ff">*</text>
+<text x="174" y="235.4" fill="#a974ff">-</text>
+<text x="183" y="235.4" fill="#a974ff">-</text>
+<text x="192" y="235.4" fill="#a974ff">#</text>
+<text x="201" y="235.4" fill="#a974ff">@</text>
+<text x="210" y="235.4" fill="#a974ff">@</text>
+<text x="219" y="235.4" fill="#a974ff">%</text>
+<text x="228" y="235.4" fill="#a974ff">*</text>
+<text x="237" y="235.4" fill="#a974ff">+</text>
+<text x="246" y="235.4" fill="#a974ff">+</text>
+<text x="255" y="235.4" fill="#a974ff">+</text>
+<text x="264" y="235.4" fill="#a974ff">*</text>
+<text x="273" y="235.4" fill="#a974ff">%</text>
+<text x="282" y="235.4" fill="#a974ff">@</text>
+<text x="291" y="235.4" fill="#938ef9" class="sig" style="animation-delay:0.96s">@</text>
+<text x="300" y="235.4" fill="#948cf9" class="sig" style="animation-delay:0.97s">@</text>
+<text x="309" y="235.4" fill="#948df9" class="sig" style="animation-delay:0.96s">=</text>
+<text x="48" y="256.4" fill="#a974ff">=</text>
+<text x="57" y="256.4" fill="#a974ff">@</text>
+<text x="66" y="256.4" fill="#a974ff">@</text>
+<text x="75" y="256.4" fill="#a974ff">#</text>
+<text x="84" y="256.4" fill="#a974ff">.</text>
+<text x="138" y="256.4" fill="#a974ff">.</text>
+<text x="147" y="256.4" fill="#a974ff">-</text>
+<text x="156" y="256.4" fill="#a974ff">#</text>
+<text x="165" y="256.4" fill="#a974ff">@</text>
+<text x="174" y="256.4" fill="#a974ff">@</text>
+<text x="183" y="256.4" fill="#a974ff">@</text>
+<text x="192" y="256.4" fill="#a974ff">@</text>
+<text x="201" y="256.4" fill="#a974ff">#</text>
+<text x="210" y="256.4" fill="#a974ff">-</text>
+<text x="219" y="256.4" fill="#a974ff">.</text>
+<text x="273" y="256.4" fill="#a974ff">.</text>
+<text x="282" y="256.4" fill="#a974ff">%</text>
+<text x="291" y="256.4" fill="#a974ff">@</text>
+<text x="300" y="256.4" fill="#a27cfd" class="sig" style="animation-delay:1.13s">@</text>
+<text x="309" y="256.4" fill="#a27cfd" class="sig" style="animation-delay:1.13s">:</text>
+<text x="48" y="277.4" fill="#a974ff">:</text>
+<text x="57" y="277.4" fill="#a974ff">@</text>
+<text x="66" y="277.4" fill="#a974ff">@</text>
+<text x="75" y="277.4" fill="#a974ff">%</text>
+<text x="84" y="277.4" fill="#a974ff">-</text>
+<text x="93" y="277.4" fill="#a974ff">.</text>
+<text x="120" y="277.4" fill="#a974ff">.</text>
+<text x="129" y="277.4" fill="#a974ff">:</text>
+<text x="138" y="277.4" fill="#a974ff">=</text>
+<text x="147" y="277.4" fill="#a974ff">#</text>
+<text x="156" y="277.4" fill="#a974ff">@</text>
+<text x="165" y="277.4" fill="#a974ff">@</text>
+<text x="174" y="277.4" fill="#a974ff">%</text>
+<text x="183" y="277.4" fill="#a974ff">%</text>
+<text x="192" y="277.4" fill="#a974ff">@</text>
+<text x="201" y="277.4" fill="#a974ff">@</text>
+<text x="210" y="277.4" fill="#a974ff">*</text>
+<text x="219" y="277.4" fill="#a974ff">-</text>
+<text x="228" y="277.4" fill="#a974ff">.</text>
+<text x="264" y="277.4" fill="#a974ff">.</text>
+<text x="273" y="277.4" fill="#a974ff">=</text>
+<text x="282" y="277.4" fill="#a974ff">@</text>
+<text x="291" y="277.4" fill="#a974ff">@</text>
+<text x="300" y="277.4" fill="#a974ff">%</text>
+<text x="309" y="277.4" fill="#a974ff">.</text>
+<text x="57" y="298.4" fill="#a974ff">:</text>
+<text x="66" y="298.4" fill="#a974ff">*</text>
+<text x="75" y="298.4" fill="#a974ff">@</text>
+<text x="84" y="298.4" fill="#a974ff">@</text>
+<text x="93" y="298.4" fill="#a974ff">@</text>
+<text x="102" y="298.4" fill="#a974ff">%</text>
+<text x="111" y="298.4" fill="#a974ff">%</text>
+<text x="120" y="298.4" fill="#a974ff">@</text>
+<text x="129" y="298.4" fill="#a974ff">@</text>
+<text x="138" y="298.4" fill="#a974ff">@</text>
+<text x="147" y="298.4" fill="#a974ff">%</text>
+<text x="156" y="298.4" fill="#a974ff">+</text>
+<text x="165" y="298.4" fill="#a974ff">:</text>
+<text x="183" y="298.4" fill="#a974ff">.</text>
+<text x="192" y="298.4" fill="#a974ff">-</text>
+<text x="201" y="298.4" fill="#a974ff">*</text>
+<text x="210" y="298.4" fill="#a974ff">%</text>
+<text x="219" y="298.4" fill="#a974ff">@</text>
+<text x="228" y="298.4" fill="#a974ff">@</text>
+<text x="237" y="298.4" fill="#a974ff">@</text>
+<text x="246" y="298.4" fill="#a974ff">%</text>
+<text x="255" y="298.4" fill="#a974ff">@</text>
+<text x="264" y="298.4" fill="#a974ff">@</text>
+<text x="273" y="298.4" fill="#a974ff">@</text>
+<text x="282" y="298.4" fill="#a974ff">%</text>
+<text x="291" y="298.4" fill="#a974ff">+</text>
+<text x="300" y="298.4" fill="#a974ff">.</text>
+<text x="75" y="319.4" fill="#a974ff">.</text>
+<text x="84" y="319.4" fill="#a974ff">:</text>
+<text x="93" y="319.4" fill="#a974ff">-</text>
+<text x="102" y="319.4" fill="#a974ff">-</text>
+<text x="111" y="319.4" fill="#a974ff">-</text>
+<text x="120" y="319.4" fill="#a974ff">-</text>
+<text x="129" y="319.4" fill="#a974ff">:</text>
+<text x="138" y="319.4" fill="#a974ff">.</text>
+<text x="219" y="319.4" fill="#a974ff">.</text>
+<text x="228" y="319.4" fill="#a974ff">:</text>
+<text x="237" y="319.4" fill="#a974ff">-</text>
+<text x="246" y="319.4" fill="#a974ff">-</text>
+<text x="255" y="319.4" fill="#a974ff">-</text>
+<text x="264" y="319.4" fill="#a974ff">-</text>
+<text x="273" y="319.4" fill="#a974ff">:</text>
+<text x="363" y="46.4" xml:space="preserve"><tspan fill="#eceaff">soham@isoham</tspan><tspan fill="#2b2752"> ─────────────────────────────────────────────</tspan></text>
+<text x="363" y="67.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Host</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ........... </tspan><tspan fill="#eceaff">IIT Kharagpur, Mathematics &amp; Computing</tspan></text>
+<text x="363" y="88.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Kernel</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ................................ </tspan><tspan fill="#eceaff">the JVM, mostly</tspan></text>
+<text x="363" y="109.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Uptime</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ...................... </tspan><tspan fill="#3df2e0">6 years, 1 month, 13 days</tspan></text>
+<text x="363" y="130.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">OS</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> .............................................. </tspan><tspan fill="#eceaff">macOS</tspan></text>
+
+<text x="363" y="172.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Languages</tspan><tspan fill="#eceaff">.</tspan><tspan fill="#a974ff">Backend</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ....... </tspan><tspan fill="#eceaff">Java, Spring Boot, PostgreSQL</tspan></text>
+<text x="363" y="193.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Languages</tspan><tspan fill="#eceaff">.</tspan><tspan fill="#a974ff">Systems</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ................................ </tspan><tspan fill="#eceaff">Rust</tspan></text>
+<text x="363" y="214.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Languages</tspan><tspan fill="#eceaff">.</tspan><tspan fill="#a974ff">Graphics</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ....................... </tspan><tspan fill="#eceaff">OpenGL, GLSL</tspan></text>
+
+<text x="363" y="256.4" xml:space="preserve"><tspan fill="#eceaff">Contact</tspan><tspan fill="#2b2752"> ──────────────────────────────────────────────────</tspan></text>
+<text x="363" y="277.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Web</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ......................................... </tspan><tspan fill="#eceaff">isoham.me</tspan></text>
+<text x="363" y="298.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Email</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ............................... </tspan><tspan fill="#eceaff">contact@isoham.me</tspan></text>
+<text x="363" y="319.4" xml:space="preserve"><tspan fill="#2b2752">. </tspan><tspan fill="#a974ff">Discord</tspan><tspan fill="#eceaff">:</tspan><tspan fill="#2b2752"> ........................................ </tspan><tspan fill="#eceaff">isoham</tspan></text>
+</svg>

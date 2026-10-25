@@ -1,0 +1,9 @@
+# The text on the contribution lattice. Same rules as card.txt.
+# A "> caption" as the very first row sits above the strands; every other row goes under the grid,
+# across the full width. Rows here are 95 characters wide, so three pairs per row fit comfortably.
+
+> git log --since="1 year ago"  {year} contributions  ·  updated {updated}
+
+## GitHub
+Repos: {repos} | Stars: {stars} | Commits: {commits}
+Followers: {followers} | Streak: {streak} | Longest: {longest}

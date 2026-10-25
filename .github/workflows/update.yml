@@ -1,0 +1,23 @@
+name: update
+on:
+  schedule: [{ cron: '30 20 * * *' }]   # 02:00 IST
+  workflow_dispatch:
+  push: { paths: ['card.txt', 'scripts/**', 'tokens.json'] }
+permissions: { contents: write }
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      # PROFILE_TOKEN (classic PAT, read:user) adds private contributions as counts only.
+      # Without it, GITHUB_TOKEN still works and the numbers are public-only.
+      - run: node scripts/build.mjs --fetch
+        env: { GH_TOKEN: '${{ secrets.PROFILE_TOKEN || github.token }}' }
+      - name: Commit if anything changed
+        run: |
+          git add assets data.json
+          git diff --cached --quiet && exit 0
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -m "Refresh profile stats [skip ci]"
+          git push

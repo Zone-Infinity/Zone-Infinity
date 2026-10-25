@@ -1,0 +1,33 @@
+# The text on the profile card (next to the infinity mark).
+# Edit it on github.com and the card redraws itself in about a minute.
+#
+#   ## Title             a section header
+#   Key: value           a row. Key.Sub works too (Languages.Backend)
+#   A: x | B: y          two or more pairs sharing one row
+#   > text               a plain caption line
+#   blank line           a gap
+#   # ...                a comment, like this one
+#
+# Placeholders work anywhere and show in aqua (they update every night). The full list is in
+# PLACEHOLDERS.md: {uptime} {since} {repos} {stars} {followers} {contributed} {prs} {commits}
+# {year} {active_days} {streak} {longest} {best_day} {busiest} {top_language} {updated}
+#
+# A row on this card fits 53 characters of key + value. The build says which line is too long.
+
+## soham@isoham
+Host: IIT Kharagpur, Mathematics & Computing
+Kernel: the JVM, mostly
+Uptime: {uptime}
+OS: macOS
+
+Languages.Backend: Java, Spring Boot, PostgreSQL
+Languages.Systems: Rust
+Languages.Graphics: OpenGL, GLSL
+
+# Now: ApnaInsti @ DevSoc KGP, Chess Club tech
+# Hobbies.Away: Hindustani flute, chess, speedcubing
+
+## Contact
+Web: isoham.me
+Email: contact@isoham.me
+Discord: isoham

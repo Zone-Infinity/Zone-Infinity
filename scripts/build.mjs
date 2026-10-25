@@ -306,7 +306,7 @@ function lattice(theme, data, vars) {
     const k = Math.sqrt(d.n / max);
     out.push(`<circle cx="${X0 + w * STEP}" cy="${Y0 + i * STEP}" r="${(1.4 + 3 * k).toFixed(2)}" fill="${d.n ? p.orchid : p.rule}" opacity="${(d.n ? 0.45 + 0.55 * k : 0.9).toFixed(2)}"/>`);
   }));
-  // The signal: the busiest weeks escape upward, height by weekly total. Each strand sways about
+  // The signal: the busiest weeks escape upward, height by weekly total. Each strand bends from
   // its root node (a transform, so it stays cheap); different periods keep them out of step.
   // Each strand grows out of its week's biggest node, so the signal visibly comes from the busiest day.
   const totals = weeks.map((col, w) => ({ w, n: col.reduce((s, d) => s + (d.n || 0), 0), peak: col.reduce((b, d, i) => ((d.n || 0) > (col[b].n || 0) ? i : b), 0) }));
@@ -321,11 +321,17 @@ function lattice(theme, data, vars) {
     const pts = Array.from({ length: 41 }, (_, i) => [strandX(x0, i / 40, s), y0 - (y0 - Y0 + h) * (i / 40)]);
     const [ex, ey] = pts[40];
     defs.push(`<linearGradient id="${theme}-s${j}" gradientUnits="userSpaceOnUse" x1="0" y1="${y0}" x2="0" y2="${ey.toFixed(1)}"><stop offset="0" stop-color="${p.orchid}" stop-opacity=".9"/><stop offset=".55" stop-color="${p.orchid}" stop-opacity=".75"/><stop offset="1" stop-color="${p.aqua}"/></linearGradient>`);
-    const dur = (3.2 + rand() * 2.4).toFixed(2), delay = (-rand() * 3).toFixed(2), deg = (2.5 + rand() * 2.5).toFixed(1);
-    out.push(`<g class="sway" style="transform-origin:${x0}px ${y0}px;animation-duration:${dur}s;animation-delay:${delay}s;--a:${deg}deg">`
-      + `<path d="M${pts.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join(' L')}" fill="none" stroke="url(#${theme}-s${j})" stroke-width="1.8" stroke-linecap="round"/>`
-      + `<circle cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="2.6" fill="${p.aqua}"/>`
-      + `<circle cx="${x0}" cy="${y0}" r="${(1.4 + 3 * Math.sqrt((weeks[t.w][t.peak].n || 0) / max)).toFixed(2)}" fill="${p.orchid}"/></g>`);
+    // Three joints, each swaying on its own clock inside the one below it, so the strand bends
+    // instead of pivoting stiffly. Still only rotations (transform), and the root never moves.
+    const line = (a, z) => `<path d="M${pts.slice(a, z + 1).map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join(' L')}" fill="none" stroke="url(#${theme}-s${j})" stroke-width="1.8" stroke-linecap="round"/>`;
+    const joint = ([x, y], deg, inner) => {
+      const dur = (2.6 + rand() * 2.2).toFixed(2), delay = (-rand() * 4).toFixed(2);
+      return `<g class="sway" style="transform-origin:${x.toFixed(1)}px ${y.toFixed(1)}px;animation-duration:${dur}s;animation-delay:${delay}s;--a:${deg.toFixed(1)}deg">${inner}</g>`;
+    };
+    const tip = `<circle cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="2.6" fill="${p.aqua}"/>`;
+    // Freedom grows with distance from the form: the upper joints swing further.
+    out.push(joint(pts[0], 3 + rand() * 3, line(0, 14) + joint(pts[14], 6 + rand() * 5, line(14, 28) + joint(pts[28], 9 + rand() * 7, line(28, 40) + tip)))
+      + `<circle cx="${x0}" cy="${y0}" r="${(1.4 + 3 * Math.sqrt((weeks[t.w][t.peak].n || 0) / max)).toFixed(2)}" fill="${p.orchid}"/>`);
   });
   let lastM = -1;
   weeks.forEach((col, w) => {

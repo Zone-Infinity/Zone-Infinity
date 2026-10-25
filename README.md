@@ -1,8 +1,10 @@
+I build backend systems and, when something feels like magic, the thing underneath it.
+
 <a href="https://isoham.me">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/card-light.svg">
-    <img alt="My infinity mark in ASCII, then soham@isoham. Host: IIT Kharagpur, Mathematics & Computing. Languages: Java, Spring Boot, PostgreSQL, Rust, OpenGL, GLSL." src="./assets/card-dark.svg" width="100%">
+    <img alt="My infinity mark in ASCII, then soham@isoham.me. Host: IIT Kharagpur, Mathematics & Computing. Languages: Java, Spring Boot, PostgreSQL, Rust, OpenGL, GLSL." src="./assets/card-dark.svg" width="100%">
   </picture>
 </a>
 

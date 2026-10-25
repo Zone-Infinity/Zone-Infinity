@@ -14,7 +14,7 @@
 #
 # A row on this card fits 53 characters of key + value. The build says which line is too long.
 
-## soham@isoham
+## soham@isoham.me
 Host: IIT Kharagpur, Mathematics & Computing
 Kernel: the JVM, mostly
 Uptime: {uptime}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 108" width="915" height="108" role="img" aria-label="My log lives at isoham.me/log">
+<style>text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:15px}</style>
+<rect width="915" height="108" rx="16" fill="#f5f4fb"/>
+<text x="30" y="46.4" xml:space="preserve"><tspan fill="#5a548c">~ $ </tspan><tspan fill="#15122c">tail -3 </tspan><tspan fill="#05736e">isoham.me/log</tspan></text>
+<text x="30" y="73.4" xml:space="preserve"><tspan fill="#5a548c">nothing here yet. the log lives at isoham.me/log</tspan></text>
+</svg>

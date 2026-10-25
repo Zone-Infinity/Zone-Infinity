@@ -14,6 +14,14 @@ I build backend systems and, when something feels like magic, the thing undernea
   <img alt="My contributions over the last year, drawn as a lattice; the busiest weeks rise out of it as strands. Beside it: repos, stars, commits, followers and streaks, refreshed nightly." src="./assets/lattice-dark.svg" width="100%">
 </picture>
 
+<a href="https://isoham.me/log">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/log-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/log-light.svg">
+    <img alt="My three newest notes from isoham.me/log." src="./assets/log-dark.svg" width="100%">
+  </picture>
+</a>
+
 <!-- Turn this on once isoham.me/resume is live (showResume: true in the axon repo).
 > [!IMPORTANT]
 > **Hiring?** My resume is at [isoham.me/resume](https://isoham.me/resume).

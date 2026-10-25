@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 354" width="915" height="354" role="img" aria-label="soham@isoham. Host: IIT Kharagpur, Mathematics &amp; Computing. Kernel: the JVM, mostly. Uptime: 6 years, 1 month, 13 days. OS: macOS. Languages.Backend: Java, Spring Boot, PostgreSQL. Languages.Systems: Rust. Languages.Graphics: OpenGL, GLSL. Contact. Web: isoham.me. Email: contact@isoham.me. Discord: isoham">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 354" width="915" height="354" role="img" aria-label="soham@isoham. Host: IIT Kharagpur, Mathematics &amp; Computing. Kernel: the JVM, mostly. Uptime: 6 years, 3 months, 3 days. OS: macOS. Languages.Backend: Java, Spring Boot, PostgreSQL. Languages.Systems: Rust. Languages.Graphics: OpenGL, GLSL. Contact. Web: isoham.me. Email: contact@isoham.me. Discord: isoham">
 <style>text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:15px}
 .sig{animation:pulse 3.6s ease-in-out infinite}.tip{animation:blink 3.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.55}25%{opacity:1}50%{opacity:.55}}
@@ -185,7 +185,7 @@
 <text x="363" y="46.4" xml:space="preserve"><tspan fill="#15122c">soham@isoham</tspan><tspan fill="#d2cdea"> ─────────────────────────────────────────────</tspan></text>
 <text x="363" y="67.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Host</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ........... </tspan><tspan fill="#15122c">IIT Kharagpur, Mathematics &amp; Computing</tspan></text>
 <text x="363" y="88.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Kernel</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ................................ </tspan><tspan fill="#15122c">the JVM, mostly</tspan></text>
-<text x="363" y="109.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Uptime</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ...................... </tspan><tspan fill="#05736e">6 years, 1 month, 13 days</tspan></text>
+<text x="363" y="109.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Uptime</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ...................... </tspan><tspan fill="#05736e">6 years, 3 months, 3 days</tspan></text>
 <text x="363" y="130.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">OS</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> .............................................. </tspan><tspan fill="#15122c">macOS</tspan></text>
 
 <text x="363" y="172.4" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Languages</tspan><tspan fill="#15122c">.</tspan><tspan fill="#6a35d9">Backend</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ....... </tspan><tspan fill="#15122c">Java, Spring Boot, PostgreSQL</tspan></text>

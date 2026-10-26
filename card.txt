@@ -6,6 +6,7 @@
 #   A: x | B: y          two or more pairs sharing one row
 #   $ command            a prompt line, drawn as "~ $ command" (as the first row it sits above everything)
 #   > text               a plain caption line
+#   @colors              neofetch's colour blocks, in the brand's tokens (dark on top, light below)
 #   blank line           a gap
 #   # ...                a comment, like this one
 #
@@ -34,3 +35,5 @@ Languages.Graphics: OpenGL, GLSL
 Web: isoham.me
 Email: contact@isoham.me
 Discord: isoham
+
+@colors

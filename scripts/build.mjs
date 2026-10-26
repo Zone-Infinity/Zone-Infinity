@@ -162,6 +162,8 @@ function readRows(file, vars, width) {
     const where = `${file} line ${i + 1}`;
     if (line.startsWith('#') && !line.startsWith('## ')) return;
     if (!line.trim()) { if (rows.length && rows.at(-1).type !== 'gap') rows.push({ type: 'gap' }); return; }
+    // neofetch's colour blocks, in the brand's own tokens: dark values on top, light values below.
+    if (line.trim() === '@colors') { rows.push({ type: 'colors', theme: 'dark' }, { type: 'colors', theme: 'light' }); return; }
     if (line.startsWith('## ')) { rows.push({ type: 'head', text: line.slice(3).trim() }); return; }
     if (line.startsWith('$ ')) {
       // A trailing "  # note" is drawn dimmer, like a shell comment.
@@ -203,8 +205,16 @@ function rowSpans(p, row, width) {
   }).join(span(' | ', p.rule));
 }
 
+const SWATCHES = ['abyss', 'night', 'rule', 'orchid-soft', 'aqua-soft', 'haze', 'orchid', 'aqua', 'fog'];
+function swatchRow(row, x, y) {
+  const c = palette(row.theme);
+  const bw = 3 * CW, bh = LH - 3;
+  // A hairline keeps the ground-coloured block visible on the same ground.
+  return SWATCHES.map((t, k) => `<rect x="${x + k * bw}" y="${y.toFixed(1)}" width="${bw}" height="${bh}" fill="${c[t]}"${t === 'abyss' || t === 'fog' ? ` stroke="${c.rule}" stroke-width="1"` : ''}/>`).join('');
+}
+
 function rowsSvg(p, rows, x, y0, width) {
-  return rows.map((r, i) => (r.type === 'gap' ? '' :
+  return rows.map((r, i) => (r.type === 'gap' ? '' : r.type === 'colors' ? swatchRow(r, x, y0 + i * LH + 1) :
     `<text x="${x}" y="${(y0 + (i + 0.78) * LH).toFixed(1)}" xml:space="preserve">${rowSpans(p, r, width)}</text>`)).join('\n');
 }
 const plainText = (rows) => rows.map((r) => (r.type === 'head' ? r.text : (r.type === 'cap' || r.type === 'cmd') ? [...r.segs, ...(r.note || [])].map((s) => s.t).join(' ')

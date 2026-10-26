@@ -1,188 +1,229 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 387.6" width="915" height="387.6" role="img" aria-label="neofetch. soham@isoham.me. Host: IIT Kharagpur, Mathematics &amp; Computing. Kernel: the JVM, mostly. Uptime: 6 years, 3 months, 4 days. OS: macOS. Languages.Backend: Java, Spring Boot, PostgreSQL. Languages.Systems: Rust. Languages.Graphics: OpenGL, GLSL. Contact. Web: isoham.me. Email: contact@isoham.me. Discord: isoham">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 450.6" width="915" height="450.6" role="img" aria-label="neofetch. soham@isoham.me. Host: IIT Kharagpur, Mathematics &amp; Computing. Kernel: the JVM, mostly. Uptime: 6 years, 3 months, 4 days. OS: macOS. Languages.Backend: Java, Spring Boot, PostgreSQL. Languages.Systems: Rust. Languages.Graphics: OpenGL, GLSL. Contact. Web: isoham.me. Email: contact@isoham.me. Discord: isoham">
 <style>text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:15px}
 .sig{animation:pulse 3.6s ease-in-out infinite}.tip{animation:blink 3.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.55}25%{opacity:1}50%{opacity:.55}}
 @keyframes blink{0%,100%{opacity:1}55%{opacity:.4}}
 @media (prefers-reduced-motion:reduce){.sig,.tip{animation:none}}</style>
-<rect width="915" height="387.6" rx="16" fill="#f5f4fb"/>
+<rect width="915" height="450.6" rx="16" fill="#f5f4fb"/>
 <text x="30" y="46.4" xml:space="preserve"><tspan fill="#5a548c">~ $ </tspan><tspan fill="#15122c">neofetch</tspan></text>
-<text x="255" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">=</text>
-<text x="264" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">*</text>
-<text x="273" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">#</text>
-<text x="282" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">*</text>
-<text x="291" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">:</text>
-<text x="255" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">%</text>
-<text x="264" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
+<text x="273" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">.</text>
+<text x="282" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">:</text>
+<text x="291" y="80.0" fill="#05736e" class="tip" style="animation-delay:0.00s">.</text>
+<text x="264" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">*</text>
 <text x="273" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
 <text x="282" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
-<text x="291" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">*</text>
-<text x="255" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">.</text>
-<text x="264" y="122.0" fill="#05736e" class="sig" style="animation-delay:0.00s">#</text>
-<text x="273" y="122.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
-<text x="282" y="122.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
-<text x="291" y="122.0" fill="#05736e" class="sig" style="animation-delay:0.00s">=</text>
-<text x="264" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">.</text>
-<text x="273" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">%</text>
+<text x="291" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
+<text x="300" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">%</text>
+<text x="309" y="101.0" fill="#05736e" class="tip" style="animation-delay:0.00s">:</text>
+<text x="264" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">*</text>
+<text x="273" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
+<text x="282" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
+<text x="291" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">@</text>
+<text x="300" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">%</text>
+<text x="309" y="122.0" fill="#05736e" class="tip" style="animation-delay:0.00s">:</text>
+<text x="273" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">+</text>
 <text x="282" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
 <text x="291" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
-<text x="300" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">-</text>
-<text x="273" y="164.0" fill="#077270" class="sig" style="animation-delay:0.02s">.</text>
-<text x="282" y="164.0" fill="#0b7074" class="sig" style="animation-delay:0.07s">%</text>
-<text x="291" y="164.0" fill="#0b6f74" class="sig" style="animation-delay:0.07s">@</text>
-<text x="300" y="164.0" fill="#0b6f75" class="sig" style="animation-delay:0.07s">@</text>
-<text x="309" y="164.0" fill="#0f6d79" class="sig" style="animation-delay:0.12s">:</text>
-<text x="282" y="185.0" fill="#186783" class="sig" style="animation-delay:0.23s">=</text>
-<text x="291" y="185.0" fill="#1a6684" class="sig" style="animation-delay:0.25s">@</text>
-<text x="300" y="185.0" fill="#1a6684" class="sig" style="animation-delay:0.25s">@</text>
-<text x="309" y="185.0" fill="#1b6685" class="sig" style="animation-delay:0.26s">*</text>
-<text x="282" y="206.0" fill="#24608f" class="sig" style="animation-delay:0.37s">.</text>
-<text x="291" y="206.0" fill="#295d94" class="sig" style="animation-delay:0.43s">@</text>
-<text x="300" y="206.0" fill="#295d94" class="sig" style="animation-delay:0.43s">@</text>
-<text x="309" y="206.0" fill="#295d94" class="sig" style="animation-delay:0.43s">@</text>
-<text x="282" y="227.0" fill="#3953a5" class="sig" style="animation-delay:0.62s">:</text>
-<text x="291" y="227.0" fill="#3854a4" class="sig" style="animation-delay:0.61s">@</text>
-<text x="300" y="227.0" fill="#3854a4" class="sig" style="animation-delay:0.61s">@</text>
-<text x="309" y="227.0" fill="#3854a4" class="sig" style="animation-delay:0.60s">%</text>
-<text x="66" y="248.0" fill="#6a35d9">.</text>
-<text x="75" y="248.0" fill="#6a35d9">-</text>
-<text x="84" y="248.0" fill="#6a35d9">+</text>
-<text x="93" y="248.0" fill="#6a35d9">#</text>
-<text x="102" y="248.0" fill="#6a35d9">#</text>
-<text x="111" y="248.0" fill="#6a35d9">#</text>
-<text x="120" y="248.0" fill="#6a35d9">#</text>
-<text x="129" y="248.0" fill="#6a35d9">*</text>
-<text x="138" y="248.0" fill="#6a35d9">+</text>
-<text x="147" y="248.0" fill="#6a35d9">-</text>
-<text x="156" y="248.0" fill="#6a35d9">.</text>
-<text x="201" y="248.0" fill="#6a35d9">.</text>
-<text x="210" y="248.0" fill="#6a35d9">-</text>
-<text x="219" y="248.0" fill="#6a35d9">+</text>
-<text x="228" y="248.0" fill="#6a35d9">*</text>
-<text x="237" y="248.0" fill="#6a35d9">#</text>
-<text x="246" y="248.0" fill="#6a35d9">%</text>
-<text x="255" y="248.0" fill="#6a35d9">#</text>
-<text x="264" y="248.0" fill="#6a35d9">#</text>
-<text x="273" y="248.0" fill="#6a35d9">+</text>
-<text x="282" y="248.0" fill="#474ab4" class="sig" style="animation-delay:0.79s">*</text>
-<text x="291" y="248.0" fill="#474ab4" class="sig" style="animation-delay:0.79s">@</text>
-<text x="300" y="248.0" fill="#474ab4" class="sig" style="animation-delay:0.79s">@</text>
-<text x="309" y="248.0" fill="#474bb4" class="sig" style="animation-delay:0.78s">*</text>
-<text x="57" y="269.0" fill="#6a35d9">+</text>
-<text x="66" y="269.0" fill="#6a35d9">@</text>
-<text x="75" y="269.0" fill="#6a35d9">@</text>
-<text x="84" y="269.0" fill="#6a35d9">%</text>
-<text x="93" y="269.0" fill="#6a35d9">*</text>
-<text x="102" y="269.0" fill="#6a35d9">+</text>
-<text x="111" y="269.0" fill="#6a35d9">+</text>
-<text x="120" y="269.0" fill="#6a35d9">+</text>
-<text x="129" y="269.0" fill="#6a35d9">#</text>
-<text x="138" y="269.0" fill="#6a35d9">@</text>
-<text x="147" y="269.0" fill="#6a35d9">@</text>
-<text x="156" y="269.0" fill="#6a35d9">@</text>
-<text x="165" y="269.0" fill="#6a35d9">*</text>
-<text x="174" y="269.0" fill="#6a35d9">-</text>
-<text x="183" y="269.0" fill="#6a35d9">-</text>
-<text x="192" y="269.0" fill="#6a35d9">#</text>
-<text x="201" y="269.0" fill="#6a35d9">@</text>
-<text x="210" y="269.0" fill="#6a35d9">@</text>
-<text x="219" y="269.0" fill="#6a35d9">%</text>
-<text x="228" y="269.0" fill="#6a35d9">*</text>
-<text x="237" y="269.0" fill="#6a35d9">+</text>
-<text x="246" y="269.0" fill="#6a35d9">+</text>
-<text x="255" y="269.0" fill="#6a35d9">+</text>
-<text x="264" y="269.0" fill="#6a35d9">*</text>
-<text x="273" y="269.0" fill="#6a35d9">%</text>
-<text x="282" y="269.0" fill="#6a35d9">@</text>
-<text x="291" y="269.0" fill="#5542c3" class="sig" style="animation-delay:0.96s">@</text>
-<text x="300" y="269.0" fill="#5741c4" class="sig" style="animation-delay:0.97s">@</text>
-<text x="309" y="269.0" fill="#5641c4" class="sig" style="animation-delay:0.96s">=</text>
-<text x="48" y="290.0" fill="#6a35d9">=</text>
-<text x="57" y="290.0" fill="#6a35d9">@</text>
-<text x="66" y="290.0" fill="#6a35d9">@</text>
-<text x="75" y="290.0" fill="#6a35d9">#</text>
-<text x="84" y="290.0" fill="#6a35d9">.</text>
-<text x="138" y="290.0" fill="#6a35d9">.</text>
-<text x="147" y="290.0" fill="#6a35d9">-</text>
-<text x="156" y="290.0" fill="#6a35d9">#</text>
-<text x="165" y="290.0" fill="#6a35d9">@</text>
-<text x="174" y="290.0" fill="#6a35d9">@</text>
-<text x="183" y="290.0" fill="#6a35d9">@</text>
-<text x="192" y="290.0" fill="#6a35d9">@</text>
-<text x="201" y="290.0" fill="#6a35d9">#</text>
-<text x="210" y="290.0" fill="#6a35d9">-</text>
-<text x="219" y="290.0" fill="#6a35d9">.</text>
-<text x="273" y="290.0" fill="#6a35d9">.</text>
-<text x="282" y="290.0" fill="#6a35d9">%</text>
-<text x="291" y="290.0" fill="#6a35d9">@</text>
-<text x="300" y="290.0" fill="#6439d2" class="sig" style="animation-delay:1.13s">@</text>
-<text x="309" y="290.0" fill="#6439d2" class="sig" style="animation-delay:1.13s">:</text>
-<text x="48" y="311.0" fill="#6a35d9">:</text>
+<text x="300" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">%</text>
+<text x="309" y="143.0" fill="#05736e" class="sig" style="animation-delay:0.00s">.</text>
+<text x="273" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">.</text>
+<text x="282" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">*</text>
+<text x="291" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
+<text x="300" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">@</text>
+<text x="309" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">%</text>
+<text x="318" y="164.0" fill="#05736e" class="sig" style="animation-delay:0.00s">.</text>
+<text x="282" y="185.0" fill="#05736e" class="sig" style="animation-delay:0.00s">.</text>
+<text x="291" y="185.0" fill="#087171" class="sig" style="animation-delay:0.03s">#</text>
+<text x="300" y="185.0" fill="#097172" class="sig" style="animation-delay:0.04s">@</text>
+<text x="309" y="185.0" fill="#097172" class="sig" style="animation-delay:0.04s">@</text>
+<text x="318" y="185.0" fill="#097073" class="sig" style="animation-delay:0.05s">#</text>
+<text x="327" y="185.0" fill="#0e6d78" class="sig" style="animation-delay:0.11s">.</text>
+<text x="291" y="206.0" fill="#126b7c" class="sig" style="animation-delay:0.15s">.</text>
+<text x="300" y="206.0" fill="#166980" class="sig" style="animation-delay:0.20s">@</text>
+<text x="309" y="206.0" fill="#166980" class="sig" style="animation-delay:0.20s">@</text>
+<text x="318" y="206.0" fill="#166980" class="sig" style="animation-delay:0.20s">@</text>
+<text x="327" y="206.0" fill="#176881" class="sig" style="animation-delay:0.22s">+</text>
+<text x="300" y="227.0" fill="#23618d" class="sig" style="animation-delay:0.35s">*</text>
+<text x="309" y="227.0" fill="#23608e" class="sig" style="animation-delay:0.36s">@</text>
+<text x="318" y="227.0" fill="#23608e" class="sig" style="animation-delay:0.36s">@</text>
+<text x="327" y="227.0" fill="#24608f" class="sig" style="animation-delay:0.37s">%</text>
+<text x="300" y="248.0" fill="#31589d" class="sig" style="animation-delay:0.52s">+</text>
+<text x="309" y="248.0" fill="#31589c" class="sig" style="animation-delay:0.52s">@</text>
+<text x="318" y="248.0" fill="#31589c" class="sig" style="animation-delay:0.52s">@</text>
+<text x="327" y="248.0" fill="#31589c" class="sig" style="animation-delay:0.52s">@</text>
+<text x="84" y="269.0" fill="#6a35d9">.</text>
+<text x="93" y="269.0" fill="#6a35d9">.</text>
+<text x="102" y="269.0" fill="#6a35d9">.</text>
+<text x="111" y="269.0" fill="#6a35d9">.</text>
+<text x="237" y="269.0" fill="#6a35d9">.</text>
+<text x="246" y="269.0" fill="#6a35d9">.</text>
+<text x="255" y="269.0" fill="#6a35d9">.</text>
+<text x="264" y="269.0" fill="#6a35d9">.</text>
+<text x="273" y="269.0" fill="#6a35d9">.</text>
+<text x="300" y="269.0" fill="#3e50ab" class="sig" style="animation-delay:0.68s">#</text>
+<text x="309" y="269.0" fill="#3e50ab" class="sig" style="animation-delay:0.68s">@</text>
+<text x="318" y="269.0" fill="#3e50ab" class="sig" style="animation-delay:0.68s">@</text>
+<text x="327" y="269.0" fill="#3e50ab" class="sig" style="animation-delay:0.68s">#</text>
+<text x="48" y="290.0" fill="#6a35d9">:</text>
+<text x="57" y="290.0" fill="#6a35d9">+</text>
+<text x="66" y="290.0" fill="#6a35d9">#</text>
+<text x="75" y="290.0" fill="#6a35d9">@</text>
+<text x="84" y="290.0" fill="#6a35d9">@</text>
+<text x="93" y="290.0" fill="#6a35d9">@</text>
+<text x="102" y="290.0" fill="#6a35d9">@</text>
+<text x="111" y="290.0" fill="#6a35d9">@</text>
+<text x="120" y="290.0" fill="#6a35d9">@</text>
+<text x="129" y="290.0" fill="#6a35d9">%</text>
+<text x="138" y="290.0" fill="#6a35d9">*</text>
+<text x="147" y="290.0" fill="#6a35d9">=</text>
+<text x="156" y="290.0" fill="#6a35d9">.</text>
+<text x="201" y="290.0" fill="#6a35d9">:</text>
+<text x="210" y="290.0" fill="#6a35d9">+</text>
+<text x="219" y="290.0" fill="#6a35d9">*</text>
+<text x="228" y="290.0" fill="#6a35d9">%</text>
+<text x="237" y="290.0" fill="#6a35d9">@</text>
+<text x="246" y="290.0" fill="#6a35d9">@</text>
+<text x="255" y="290.0" fill="#6a35d9">@</text>
+<text x="264" y="290.0" fill="#6a35d9">@</text>
+<text x="273" y="290.0" fill="#6a35d9">@</text>
+<text x="282" y="290.0" fill="#6a35d9">@</text>
+<text x="291" y="290.0" fill="#6a35d9">#</text>
+<text x="300" y="290.0" fill="#4a48b8" class="sig" style="animation-delay:0.83s">@</text>
+<text x="309" y="290.0" fill="#4b48b9" class="sig" style="animation-delay:0.84s">@</text>
+<text x="318" y="290.0" fill="#4b48b9" class="sig" style="animation-delay:0.84s">@</text>
+<text x="327" y="290.0" fill="#4b48b9" class="sig" style="animation-delay:0.84s">+</text>
+<text x="39" y="311.0" fill="#6a35d9">+</text>
+<text x="48" y="311.0" fill="#6a35d9">@</text>
 <text x="57" y="311.0" fill="#6a35d9">@</text>
 <text x="66" y="311.0" fill="#6a35d9">@</text>
-<text x="75" y="311.0" fill="#6a35d9">%</text>
-<text x="84" y="311.0" fill="#6a35d9">-</text>
-<text x="93" y="311.0" fill="#6a35d9">.</text>
-<text x="120" y="311.0" fill="#6a35d9">.</text>
-<text x="129" y="311.0" fill="#6a35d9">:</text>
-<text x="138" y="311.0" fill="#6a35d9">=</text>
-<text x="147" y="311.0" fill="#6a35d9">#</text>
+<text x="75" y="311.0" fill="#6a35d9">*</text>
+<text x="84" y="311.0" fill="#6a35d9">=</text>
+<text x="93" y="311.0" fill="#6a35d9">-</text>
+<text x="102" y="311.0" fill="#6a35d9">-</text>
+<text x="111" y="311.0" fill="#6a35d9">=</text>
+<text x="120" y="311.0" fill="#6a35d9">+</text>
+<text x="129" y="311.0" fill="#6a35d9">#</text>
+<text x="138" y="311.0" fill="#6a35d9">@</text>
+<text x="147" y="311.0" fill="#6a35d9">@</text>
 <text x="156" y="311.0" fill="#6a35d9">@</text>
-<text x="165" y="311.0" fill="#6a35d9">@</text>
-<text x="174" y="311.0" fill="#6a35d9">%</text>
-<text x="183" y="311.0" fill="#6a35d9">%</text>
-<text x="192" y="311.0" fill="#6a35d9">@</text>
+<text x="165" y="311.0" fill="#6a35d9">#</text>
+<text x="174" y="311.0" fill="#6a35d9">=</text>
+<text x="183" y="311.0" fill="#6a35d9">+</text>
+<text x="192" y="311.0" fill="#6a35d9">%</text>
 <text x="201" y="311.0" fill="#6a35d9">@</text>
-<text x="210" y="311.0" fill="#6a35d9">*</text>
-<text x="219" y="311.0" fill="#6a35d9">-</text>
-<text x="228" y="311.0" fill="#6a35d9">.</text>
-<text x="264" y="311.0" fill="#6a35d9">.</text>
+<text x="210" y="311.0" fill="#6a35d9">@</text>
+<text x="219" y="311.0" fill="#6a35d9">@</text>
+<text x="228" y="311.0" fill="#6a35d9">#</text>
+<text x="237" y="311.0" fill="#6a35d9">+</text>
+<text x="246" y="311.0" fill="#6a35d9">=</text>
+<text x="255" y="311.0" fill="#6a35d9">-</text>
+<text x="264" y="311.0" fill="#6a35d9">-</text>
 <text x="273" y="311.0" fill="#6a35d9">=</text>
-<text x="282" y="311.0" fill="#6a35d9">@</text>
+<text x="282" y="311.0" fill="#6a35d9">*</text>
 <text x="291" y="311.0" fill="#6a35d9">@</text>
-<text x="300" y="311.0" fill="#6a35d9">%</text>
-<text x="309" y="311.0" fill="#6a35d9">.</text>
-<text x="57" y="332.0" fill="#6a35d9">:</text>
-<text x="66" y="332.0" fill="#6a35d9">*</text>
-<text x="75" y="332.0" fill="#6a35d9">@</text>
-<text x="84" y="332.0" fill="#6a35d9">@</text>
-<text x="93" y="332.0" fill="#6a35d9">@</text>
-<text x="102" y="332.0" fill="#6a35d9">%</text>
-<text x="111" y="332.0" fill="#6a35d9">%</text>
-<text x="120" y="332.0" fill="#6a35d9">@</text>
-<text x="129" y="332.0" fill="#6a35d9">@</text>
-<text x="138" y="332.0" fill="#6a35d9">@</text>
-<text x="147" y="332.0" fill="#6a35d9">%</text>
-<text x="156" y="332.0" fill="#6a35d9">+</text>
-<text x="165" y="332.0" fill="#6a35d9">:</text>
-<text x="183" y="332.0" fill="#6a35d9">.</text>
-<text x="192" y="332.0" fill="#6a35d9">-</text>
-<text x="201" y="332.0" fill="#6a35d9">*</text>
-<text x="210" y="332.0" fill="#6a35d9">%</text>
-<text x="219" y="332.0" fill="#6a35d9">@</text>
-<text x="228" y="332.0" fill="#6a35d9">@</text>
-<text x="237" y="332.0" fill="#6a35d9">@</text>
-<text x="246" y="332.0" fill="#6a35d9">%</text>
-<text x="255" y="332.0" fill="#6a35d9">@</text>
-<text x="264" y="332.0" fill="#6a35d9">@</text>
-<text x="273" y="332.0" fill="#6a35d9">@</text>
-<text x="282" y="332.0" fill="#6a35d9">%</text>
-<text x="291" y="332.0" fill="#6a35d9">+</text>
-<text x="300" y="332.0" fill="#6a35d9">.</text>
+<text x="300" y="311.0" fill="#6a35d9">@</text>
+<text x="309" y="311.0" fill="#5840c6" class="sig" style="animation-delay:0.99s">@</text>
+<text x="318" y="311.0" fill="#5940c7" class="sig" style="animation-delay:1.00s">@</text>
+<text x="327" y="311.0" fill="#5940c7" class="sig" style="animation-delay:1.00s">:</text>
+<text x="30" y="332.0" fill="#6a35d9">:</text>
+<text x="39" y="332.0" fill="#6a35d9">@</text>
+<text x="48" y="332.0" fill="#6a35d9">@</text>
+<text x="57" y="332.0" fill="#6a35d9">@</text>
+<text x="66" y="332.0" fill="#6a35d9">-</text>
+<text x="138" y="332.0" fill="#6a35d9">.</text>
+<text x="147" y="332.0" fill="#6a35d9">=</text>
+<text x="156" y="332.0" fill="#6a35d9">%</text>
+<text x="165" y="332.0" fill="#6a35d9">@</text>
+<text x="174" y="332.0" fill="#6a35d9">@</text>
+<text x="183" y="332.0" fill="#6a35d9">@</text>
+<text x="192" y="332.0" fill="#6a35d9">@</text>
+<text x="201" y="332.0" fill="#6a35d9">%</text>
+<text x="210" y="332.0" fill="#6a35d9">-</text>
+<text x="219" y="332.0" fill="#6a35d9">.</text>
+<text x="291" y="332.0" fill="#6a35d9">=</text>
+<text x="300" y="332.0" fill="#6a35d9">@</text>
+<text x="309" y="332.0" fill="#6a35d9">@</text>
+<text x="318" y="332.0" fill="#6538d3" class="sig" style="animation-delay:1.14s">@</text>
+<text x="327" y="332.0" fill="#6538d3" class="sig" style="animation-delay:1.14s">:</text>
+<text x="30" y="353.0" fill="#6a35d9">.</text>
+<text x="39" y="353.0" fill="#6a35d9">%</text>
+<text x="48" y="353.0" fill="#6a35d9">@</text>
+<text x="57" y="353.0" fill="#6a35d9">@</text>
+<text x="66" y="353.0" fill="#6a35d9">*</text>
 <text x="75" y="353.0" fill="#6a35d9">.</text>
-<text x="84" y="353.0" fill="#6a35d9">:</text>
-<text x="93" y="353.0" fill="#6a35d9">-</text>
-<text x="102" y="353.0" fill="#6a35d9">-</text>
-<text x="111" y="353.0" fill="#6a35d9">-</text>
-<text x="120" y="353.0" fill="#6a35d9">-</text>
+<text x="120" y="353.0" fill="#6a35d9">.</text>
 <text x="129" y="353.0" fill="#6a35d9">:</text>
-<text x="138" y="353.0" fill="#6a35d9">.</text>
-<text x="219" y="353.0" fill="#6a35d9">.</text>
+<text x="138" y="353.0" fill="#6a35d9">+</text>
+<text x="147" y="353.0" fill="#6a35d9">%</text>
+<text x="156" y="353.0" fill="#6a35d9">@</text>
+<text x="165" y="353.0" fill="#6a35d9">@</text>
+<text x="174" y="353.0" fill="#6a35d9">@</text>
+<text x="183" y="353.0" fill="#6a35d9">@</text>
+<text x="192" y="353.0" fill="#6a35d9">@</text>
+<text x="201" y="353.0" fill="#6a35d9">@</text>
+<text x="210" y="353.0" fill="#6a35d9">#</text>
+<text x="219" y="353.0" fill="#6a35d9">=</text>
 <text x="228" y="353.0" fill="#6a35d9">:</text>
-<text x="237" y="353.0" fill="#6a35d9">-</text>
-<text x="246" y="353.0" fill="#6a35d9">-</text>
-<text x="255" y="353.0" fill="#6a35d9">-</text>
-<text x="264" y="353.0" fill="#6a35d9">-</text>
-<text x="273" y="353.0" fill="#6a35d9">:</text>
+<text x="282" y="353.0" fill="#6a35d9">.</text>
+<text x="291" y="353.0" fill="#6a35d9">#</text>
+<text x="300" y="353.0" fill="#6a35d9">@</text>
+<text x="309" y="353.0" fill="#6a35d9">@</text>
+<text x="318" y="353.0" fill="#6a35d9">%</text>
+<text x="327" y="353.0" fill="#6a35d9">.</text>
+<text x="39" y="374.0" fill="#6a35d9">.</text>
+<text x="48" y="374.0" fill="#6a35d9">*</text>
+<text x="57" y="374.0" fill="#6a35d9">@</text>
+<text x="66" y="374.0" fill="#6a35d9">@</text>
+<text x="75" y="374.0" fill="#6a35d9">@</text>
+<text x="84" y="374.0" fill="#6a35d9">%</text>
+<text x="93" y="374.0" fill="#6a35d9">#</text>
+<text x="102" y="374.0" fill="#6a35d9">#</text>
+<text x="111" y="374.0" fill="#6a35d9">%</text>
+<text x="120" y="374.0" fill="#6a35d9">@</text>
+<text x="129" y="374.0" fill="#6a35d9">@</text>
+<text x="138" y="374.0" fill="#6a35d9">@</text>
+<text x="147" y="374.0" fill="#6a35d9">@</text>
+<text x="156" y="374.0" fill="#6a35d9">*</text>
+<text x="165" y="374.0" fill="#6a35d9">-</text>
+<text x="174" y="374.0" fill="#6a35d9">.</text>
+<text x="183" y="374.0" fill="#6a35d9">.</text>
+<text x="192" y="374.0" fill="#6a35d9">=</text>
+<text x="201" y="374.0" fill="#6a35d9">#</text>
+<text x="210" y="374.0" fill="#6a35d9">@</text>
+<text x="219" y="374.0" fill="#6a35d9">@</text>
+<text x="228" y="374.0" fill="#6a35d9">@</text>
+<text x="237" y="374.0" fill="#6a35d9">@</text>
+<text x="246" y="374.0" fill="#6a35d9">%</text>
+<text x="255" y="374.0" fill="#6a35d9">#</text>
+<text x="264" y="374.0" fill="#6a35d9">#</text>
+<text x="273" y="374.0" fill="#6a35d9">%</text>
+<text x="282" y="374.0" fill="#6a35d9">@</text>
+<text x="291" y="374.0" fill="#6a35d9">@</text>
+<text x="300" y="374.0" fill="#6a35d9">@</text>
+<text x="309" y="374.0" fill="#6a35d9">*</text>
+<text x="318" y="374.0" fill="#6a35d9">.</text>
+<text x="57" y="395.0" fill="#6a35d9">.</text>
+<text x="66" y="395.0" fill="#6a35d9">-</text>
+<text x="75" y="395.0" fill="#6a35d9">+</text>
+<text x="84" y="395.0" fill="#6a35d9">*</text>
+<text x="93" y="395.0" fill="#6a35d9">#</text>
+<text x="102" y="395.0" fill="#6a35d9">#</text>
+<text x="111" y="395.0" fill="#6a35d9">*</text>
+<text x="120" y="395.0" fill="#6a35d9">+</text>
+<text x="129" y="395.0" fill="#6a35d9">=</text>
+<text x="138" y="395.0" fill="#6a35d9">:</text>
+<text x="147" y="395.0" fill="#6a35d9">.</text>
+<text x="210" y="395.0" fill="#6a35d9">.</text>
+<text x="219" y="395.0" fill="#6a35d9">-</text>
+<text x="228" y="395.0" fill="#6a35d9">=</text>
+<text x="237" y="395.0" fill="#6a35d9">+</text>
+<text x="246" y="395.0" fill="#6a35d9">*</text>
+<text x="255" y="395.0" fill="#6a35d9">#</text>
+<text x="264" y="395.0" fill="#6a35d9">#</text>
+<text x="273" y="395.0" fill="#6a35d9">*</text>
+<text x="282" y="395.0" fill="#6a35d9">+</text>
+<text x="291" y="395.0" fill="#6a35d9">-</text>
+<text x="300" y="395.0" fill="#6a35d9">.</text>
 <text x="363" y="80.0" xml:space="preserve"><tspan fill="#15122c">soham@isoham.me</tspan><tspan fill="#d2cdea"> ──────────────────────────────────────────</tspan></text>
 <text x="363" y="101.0" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Host</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ........... </tspan><tspan fill="#15122c">IIT Kharagpur, Mathematics &amp; Computing</tspan></text>
 <text x="363" y="122.0" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Kernel</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ................................ </tspan><tspan fill="#15122c">the JVM, mostly</tspan></text>
@@ -197,4 +238,7 @@
 <text x="363" y="311.0" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Web</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ......................................... </tspan><tspan fill="#15122c">isoham.me</tspan></text>
 <text x="363" y="332.0" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Email</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ............................... </tspan><tspan fill="#15122c">contact@isoham.me</tspan></text>
 <text x="363" y="353.0" xml:space="preserve"><tspan fill="#d2cdea">. </tspan><tspan fill="#6a35d9">Discord</tspan><tspan fill="#15122c">:</tspan><tspan fill="#d2cdea"> ........................................ </tspan><tspan fill="#15122c">isoham</tspan></text>
+
+<rect x="363" y="379.6" width="27" height="18" fill="#0a0914" stroke="#2b2752" stroke-width="1"/><rect x="390" y="379.6" width="27" height="18" fill="#13112a"/><rect x="417" y="379.6" width="27" height="18" fill="#2b2752"/><rect x="444" y="379.6" width="27" height="18" fill="#221a44"/><rect x="471" y="379.6" width="27" height="18" fill="#0e2e30"/><rect x="498" y="379.6" width="27" height="18" fill="#9a95c9"/><rect x="525" y="379.6" width="27" height="18" fill="#a974ff"/><rect x="552" y="379.6" width="27" height="18" fill="#3df2e0"/><rect x="579" y="379.6" width="27" height="18" fill="#eceaff" stroke="#2b2752" stroke-width="1"/>
+<rect x="363" y="400.6" width="27" height="18" fill="#f5f4fb" stroke="#d2cdea" stroke-width="1"/><rect x="390" y="400.6" width="27" height="18" fill="#eae7f7"/><rect x="417" y="400.6" width="27" height="18" fill="#d2cdea"/><rect x="444" y="400.6" width="27" height="18" fill="#e6dcfb"/><rect x="471" y="400.6" width="27" height="18" fill="#d5f3f0"/><rect x="498" y="400.6" width="27" height="18" fill="#5a548c"/><rect x="525" y="400.6" width="27" height="18" fill="#6a35d9"/><rect x="552" y="400.6" width="27" height="18" fill="#05736e"/><rect x="579" y="400.6" width="27" height="18" fill="#15122c" stroke="#d2cdea" stroke-width="1"/>
 </svg>
